@@ -1,0 +1,17 @@
+
+.redText {
+
+    color : red;
+}
+.blue {
+    //background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.redText{
+    display: flex;
+    flex-direction: row;
+    padding : 20px;
+    //background-color : red
+}  

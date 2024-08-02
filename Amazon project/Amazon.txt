@@ -1,0 +1,68 @@
+
+Projet Amazon :
+
+Membre 1 : Accueil et Articles
+    Fichier index.php
+    Accueil du site, afficher le nom et un logo
+    Lister tous les produits, avec titre, image, description
+    Ajouter sur chaque article un bouton "Voir le produit"
+Membre 2 : Détail d'un Produit
+    Fichier article.php?id=3
+    Indiquer l'article demandé via l'URL (GET)
+    Afficher le détail d'un article, avec son prix, d'autres photos, et des informations supplémentaires
+    Ajouter un bouton "Ajouter au panier", qui ajoute l'ID actuel dans la session
+    L'ajout au panier peut se faire sur une même page, ou sur la même
+Membre 3 : Panier
+    Lister les produits dans le panier, avec le prix associé
+    Pas besoin de gerer les quantités ou de supprimer un article
+    Afficher en bas de page le montant total, avec un bouton paiement (Bouton inactif)
+
+Rendu avant dimanche 28/07 à 23H59 !!!
+https://forms.gle/KiHEYWrifA2e5cZs5
+
+Groupe 1 : Pierre / Ilane / Stéphane M
+Groupe 2 : Rafik / Sylvie / Philippe
+Groupe 3 : Meddahia / Théo / Walid
+Groupe 4 : Noha / Stéphane H / Kamila
+Groupe 5 : Nadia / Nathalie / Yanina
+Groupe 6 : Alicia / Kevin / Gaëlick
+Groupe 7 : Prasanna / Romain / Éléonora
+Groupe 8 : Hugo / Bastien / Nourallah
+Groupe 9 : Octavio / Laurent / Thomas
+
+$produits = array(
+    array(
+        "id" => 1,
+        "name" => "Produit 1",
+        "overview" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image" => "https://www.amazon.com/images.jpeg",
+        "price" => 99.99,
+    ), array(
+        "id" => 2,
+        "name" => "Produit 2",
+        "overview" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image" => "https://www.amazon.com/images.jpeg",
+        "price" => 99.99,
+    ), array(
+        "id" => 3,
+        "name" => "Produit 3",
+        "overview" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image" => "https://www.amazon.com/images.jpeg",
+        "price" => 99.99,
+    ), array(
+        "id" => 4,
+        "name" => "Produit 4",
+        "overview" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image" => "https://www.amazon.com/images.jpeg",
+        "price" => 99.99,
+    ), array(
+        "id" => 5,
+        "name" => "Produit 5",
+        "overview" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image" => "https://www.amazon.com/images.jpeg",
+        "price" => 99.99,
+    ),
+
+);
+
+
